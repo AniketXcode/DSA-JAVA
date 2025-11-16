@@ -1,4 +1,4 @@
-📌 Day 01 – Find the Largest Element in an Array
+📌 01 – Find the Largest Element in an Array
 📝 Problem
 
 You are given an array.
