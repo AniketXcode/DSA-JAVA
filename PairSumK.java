@@ -8,7 +8,6 @@ public class PairSumK {
     for (int num : arr) {
       int remaining = K - num;
 
-      // If the remaining number exists in map -> we found pairs
       if (map.containsKey(remaining)) {
         int count = map.get(remaining);
 
@@ -17,7 +16,6 @@ public class PairSumK {
         }
       }
 
-      // Add current element to map
       map.put(num, map.getOrDefault(num, 0) + 1);
     }
   }
