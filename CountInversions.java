@@ -24,7 +24,7 @@ public class CountInversions {
         temp[k++] = arr[i++];
       } else {
         temp[k++] = arr[j++];
-        inversions += (mid - i + 1); // remaining left elements
+        inversions += (mid - i + 1); 
       }
     }
 
@@ -33,7 +33,7 @@ public class CountInversions {
     while (j <= right)
       temp[k++] = arr[j++];
 
-    // copy back to original array
+    
     for (int x = 0; x < temp.length; x++) {
       arr[left + x] = temp[x];
     }
